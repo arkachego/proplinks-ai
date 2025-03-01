@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "short_name": "proplinks-ai",
+  "name": "PropLinks AI",
+  "version": "1.0.0",
+  "description": "",
+  "action": {
+    "default_popup": "index.html",
+    "default_height": 754
+  },
+  "permissions": [
+    "scripting",
+    "tabs",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "icons": {
+    "128": "logo.png"
+  }
+}
