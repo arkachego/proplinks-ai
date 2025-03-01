@@ -32,7 +32,8 @@ npm run build
 
 ##### Add the extension
 
-1. Open [Google Chrome Extensions](chrome://extensions).
+1. Open **Google Chrome** browser.
+2. Type `chrome://extensions` in the address bar and press **Enter**.
 2. Enable the **Developer Mode**.
 3. Click on the **Load Unpacked** button.
 4. Select the generated `dist` folder.
