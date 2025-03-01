@@ -34,8 +34,8 @@ npm run build
 
 1. Open **Google Chrome** browser.
 2. Type `chrome://extensions` in the address bar and press **Enter**.
-2. Enable the **Developer Mode**.
-3. Click on the **Load Unpacked** button.
-4. Select the generated `dist` folder.
-5. Open the **Details** menu of the extension.
-6. Enable **Pin to Toolbar** for easy access.
+3. Enable the **Developer Mode**.
+4. Click on the **Load Unpacked** button.
+5. Select the generated `dist` folder.
+6. Open the **Details** menu of the extension.
+7. Enable **Pin to Toolbar** for easy access.
