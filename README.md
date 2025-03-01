@@ -4,6 +4,8 @@ This repository is the deliverable towards the recruitment drive for **Solura Te
 
 The requirement can be found in this [Figma Link](https://www.figma.com/design/idSgBbOIHzYwz49TQT4QF7/Interview-Excercise).
 
+![Alt text](docs/feature.jpg)
+
 To install the module in your local **Google Chrome** browser, please follow the following steps:
 
 ##### Clone the repository
@@ -37,5 +39,8 @@ npm run build
 3. Enable the **Developer Mode**.
 4. Click on the **Load Unpacked** button.
 5. Select the generated `dist` folder.
+
+![Alt text](docs/extension.png)
+
 6. Open the **Details** menu of the extension.
 7. Enable **Pin to Toolbar** for easy access.
