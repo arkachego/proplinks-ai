@@ -1,54 +1,40 @@
-# React + TypeScript + Vite
+# PropLinks AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository is the deliverable towards the recruitment drive for **Solura Technologies**. It is asked to build a smart scrolling viewport having 3 `div` elements which will be an extension in the **Google Chrome** browser.
 
-Currently, two official plugins are available:
+The requirement can be found in this [Figma Link](https://www.figma.com/design/idSgBbOIHzYwz49TQT4QF7/Interview-Excercise).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To install the module in your local **Google Chrome** browser, please follow the following steps:
 
-## Expanding the ESLint configuration
+##### Clone the repository
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```
+git clone https://github.com/arkachego/proplinks-ai.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+##### Navigate into directory
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
 ```
+cd proplinks-ai
+```
+
+##### Install the dependencies
+
+```
+npm install
+```
+
+##### Build the module
+
+```
+npm run build
+```
+
+##### Add the extension
+
+1. Open [Google Chrome Extensions](chrome://extensions).
+2. Enable the **Developer Mode**.
+3. Click on the **Load Unpacked** button.
+4. Select the generated `dist` folder.
+5. Open the **Details** menu of the extension.
+6. Enable **Pin to Toolbar** for easy access.
